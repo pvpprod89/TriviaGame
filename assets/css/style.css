@@ -1,0 +1,66 @@
+body {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: 'Times New Roman', Times, serif
+  font-weight: 100;
+  color: black;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 70px;
+  text-align: center;
+  background: red;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.game {
+  text-align: center;
+}
+
+.start-button {
+  padding: 15px 30px;
+  border: 1px solid black;
+}
+
+.start-button:hover,
+.first-answer:hover,
+.answer:hover {
+  background-color: black;
+  transition-duration: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+
+.first-answer,
+.answer {
+  cursor: pointer;
+  padding: 15px 30px;
+  border: 1px solid black;
+  margin: 20px;
+}
